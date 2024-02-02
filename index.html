@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login-cadastro</title>
+    <link rel="stylesheet" href="./src/css/extends.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-register">
+            <form action="" class="login">
+                <h2 class="title">Login</h2>
+                <div class="input-field">
+                    <i class="fa-solid fa-envelope email-symbol"></i>
+                    <input type="email" placeholder="Insira seu E-mail" required>
+                </div>
+                <div class="input-field">
+                    <i class="fa-solid fa-lock password-symbol"></i>
+                    <input type="password" placeholder="Insira sua senha" required>
+                </div>
+                <button class="button">Entrar</button>
+                <p class="social-text">Ou faça login com suas redes sociais</p>
+                <div class="social-media">
+                    <a href="#" class="social-icon">
+                        <i class="fa-brands fa-google"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                </div>
+                <p class="text-account__mobile">Não tem uma conta? <a href="#" id="signup-necessary">Cadastre-se</a></p>
+            </form>
+
+            <form action="" class="register">
+                <h2 class="title">Cadastro</h2>
+                <div class="input-field">
+                    <i class="fa-solid fa-user username"></i>
+                    <input type="username" placeholder="Insira um nome de usuário" required>
+                </div>
+                <div class="input-field">
+                    <i class="fa-solid fa-user email"></i>
+                    <input type="email" placeholder="Insira um E-mail" required>
+                </div>
+                <div class="input-field">
+                    <i class="fa-solid fa-user password"></i>
+                    <input type="password" placeholder="Insira uma senha" required>
+                </div>
+                <button class="button">Cadastrar</button>
+                <p class="social-text">Ou cadastre-se com suas redes sociais</p>
+                <div class="social-media">
+                    <a href="#" class="social-icon">
+                        <i class="fa-brands fa-google"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                </div>
+                <p class="text-account__mobile">Já possui uma conta? <a href="#" id="login-necessary">Entrar</a></p>
+            </form>
+        </div>
+
+        <div class="second-container">
+            <div class="left-side painel">
+                <div class="content">
+                    <h3>Já é membro?</h3>
+                    <p>Entre com sua conta para ter acesso a todas funcionalidades do site</p>
+                    <button class="button" id="button-login">Entrar</button>
+                </div>
+            </div>
+            <div class="right-side painel">
+                <div class="content">
+                    <h3>Ainda não é membro?</h3>
+                    <p>Faça seu cadastro para ter acesso a todas funcionalidades do site</p>
+                    <button class="button" id="button-signup">Cadastrar-se</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/scripts.js"></script>
+    <script src="https://kit.fontawesome.com/56f264159f.js" crossorigin="anonymous"></script>
+</body>
+</html>
